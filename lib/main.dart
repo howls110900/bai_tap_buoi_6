@@ -1,5 +1,6 @@
+import 'package:buoi_6/changed_colors.dart';
 import 'package:flutter/material.dart';
-import 'bt_buoi_6.dart';
+import 'pressed.dart';
 
 void main() {
   runApp(const MyApp());
@@ -87,12 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body:
-        Container(
-          padding: const EdgeInsets.only(top: 350),
-          child:
-          const MyApp2(),
-        )
+      body: const MyApp3(),
     );
   }
 }
